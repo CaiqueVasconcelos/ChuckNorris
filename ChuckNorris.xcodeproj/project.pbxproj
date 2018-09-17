@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005328DB0F782D30EDAA31E7 /* Pods_ChuckNorris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DA4464FD4442103442841 /* Pods_ChuckNorris.framework */; };
 		44B66E83214B272900989E4F /* ListaCategoriasPiadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E82214B272900989E4F /* ListaCategoriasPiadasViewController.swift */; };
 		44B66E85214B28F900989E4F /* Piadas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B66E84214B28F900989E4F /* Piadas.storyboard */; };
 		44B66E87214C295500989E4F /* PiadasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E86214C295500989E4F /* PiadasViewModel.swift */; };
@@ -27,6 +26,7 @@
 		44B8F00C214B078E0000C8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B8F00B214B078E0000C8FF /* Assets.xcassets */; };
 		44B8F00F214B078E0000C8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B8F00D214B078E0000C8FF /* LaunchScreen.storyboard */; };
 		44B8F01A214B078E0000C8FF /* ChuckNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8F019214B078E0000C8FF /* ChuckNorrisTests.swift */; };
+		696CE185DD646445E6628992 /* Pods_ChuckNorris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1547FBE9FE6B6E0B852A38F7 /* Pods_ChuckNorris.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3255FA1D2DA48A40AC8DEC48 /* Pods-ChuckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris.debug.xcconfig"; sourceTree = "<group>"; };
+		0B9E298BAC8210EC1634DFC5 /* Pods-ChuckNorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorris.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris.release.xcconfig"; sourceTree = "<group>"; };
+		1547FBE9FE6B6E0B852A38F7 /* Pods_ChuckNorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B66E82214B272900989E4F /* ListaCategoriasPiadasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCategoriasPiadasViewController.swift; sourceTree = "<group>"; };
 		44B66E84214B28F900989E4F /* Piadas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Piadas.storyboard; sourceTree = "<group>"; };
 		44B66E86214C295500989E4F /* PiadasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiadasViewModel.swift; sourceTree = "<group>"; };
@@ -64,8 +65,7 @@
 		44B8F015214B078E0000C8FF /* ChuckNorrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckNorrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B8F019214B078E0000C8FF /* ChuckNorrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisTests.swift; sourceTree = "<group>"; };
 		44B8F01B214B078E0000C8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D4DA4464FD4442103442841 /* Pods_ChuckNorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD089E5BC3DF7D552270F031 /* Pods-ChuckNorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorris.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris.release.xcconfig"; sourceTree = "<group>"; };
+		E76426083037ECA64DA5033B /* Pods-ChuckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				005328DB0F782D30EDAA31E7 /* Pods_ChuckNorris.framework in Frameworks */,
+				696CE185DD646445E6628992 /* Pods_ChuckNorris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,23 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0786301BD4FE050C8FFD1C13 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3255FA1D2DA48A40AC8DEC48 /* Pods-ChuckNorris.debug.xcconfig */,
-				DD089E5BC3DF7D552270F031 /* Pods-ChuckNorris.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		11C1353B68FCA6E2FAC66EF0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4D4DA4464FD4442103442841 /* Pods_ChuckNorris.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		44B66E7B214B24E400989E4F /* arch */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,8 +186,8 @@
 				44B8F003214B078E0000C8FF /* ChuckNorris */,
 				44B8F018214B078E0000C8FF /* ChuckNorrisTests */,
 				44B8F002214B078E0000C8FF /* Products */,
-				0786301BD4FE050C8FFD1C13 /* Pods */,
-				11C1353B68FCA6E2FAC66EF0 /* Frameworks */,
+				FE2242A3A1163D0A8771E567 /* Pods */,
+				F07E8C948DCB5CA75135981F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,6 +223,23 @@
 			path = ChuckNorrisTests;
 			sourceTree = "<group>";
 		};
+		F07E8C948DCB5CA75135981F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1547FBE9FE6B6E0B852A38F7 /* Pods_ChuckNorris.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE2242A3A1163D0A8771E567 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E76426083037ECA64DA5033B /* Pods-ChuckNorris.debug.xcconfig */,
+				0B9E298BAC8210EC1634DFC5 /* Pods-ChuckNorris.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,11 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B8F01E214B078E0000C8FF /* Build configuration list for PBXNativeTarget "ChuckNorris" */;
 			buildPhases = (
-				4BC61B97DB6F2774CF8626D6 /* [CP] Check Pods Manifest.lock */,
+				DB41871FCEF8237CB8079CC8 /* [CP] Check Pods Manifest.lock */,
 				44B8EFFD214B078E0000C8FF /* Sources */,
 				44B8EFFE214B078E0000C8FF /* Frameworks */,
 				44B8EFFF214B078E0000C8FF /* Resources */,
-				76719F4AE1724B07352BCCD1 /* [CP] Embed Pods Frameworks */,
+				F29EFE04EF2E6EF3EEB94BB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,16 +340,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4BC61B97DB6F2774CF8626D6 /* [CP] Check Pods Manifest.lock */ = {
+		DB41871FCEF8237CB8079CC8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ChuckNorris-checkManifestLockResult.txt",
 			);
@@ -358,22 +362,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76719F4AE1724B07352BCCD1 /* [CP] Embed Pods Frameworks */ = {
+		F29EFE04EF2E6EF3EEB94BB9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -558,11 +564,11 @@
 		};
 		44B8F01F214B078E0000C8FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3255FA1D2DA48A40AC8DEC48 /* Pods-ChuckNorris.debug.xcconfig */;
+			baseConfigurationReference = E76426083037ECA64DA5033B /* Pods-ChuckNorris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HVNA25BV2B;
+				DEVELOPMENT_TEAM = F2TUAMX4Z8;
 				INFOPLIST_FILE = ChuckNorris/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -579,11 +585,11 @@
 		};
 		44B8F020214B078E0000C8FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD089E5BC3DF7D552270F031 /* Pods-ChuckNorris.release.xcconfig */;
+			baseConfigurationReference = 0B9E298BAC8210EC1634DFC5 /* Pods-ChuckNorris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HVNA25BV2B;
+				DEVELOPMENT_TEAM = F2TUAMX4Z8;
 				INFOPLIST_FILE = ChuckNorris/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
