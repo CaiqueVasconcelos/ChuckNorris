@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005328DB0F782D30EDAA31E7 /* Pods_ChuckNorris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DA4464FD4442103442841 /* Pods_ChuckNorris.framework */; };
+		44B66E83214B272900989E4F /* ListaCategoriasPiadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E82214B272900989E4F /* ListaCategoriasPiadasViewController.swift */; };
+		44B66E85214B28F900989E4F /* Piadas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B66E84214B28F900989E4F /* Piadas.storyboard */; };
+		44B66E87214C295500989E4F /* PiadasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E86214C295500989E4F /* PiadasViewModel.swift */; };
+		44B66E89214C29E000989E4F /* Piada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E88214C29E000989E4F /* Piada.swift */; };
+		44B66E8C214C2EAA00989E4F /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E8B214C2EAA00989E4F /* BaseRequest.swift */; };
+		44B66E90214C2F4800989E4F /* BuscaCategoriasRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E8F214C2F4800989E4F /* BuscaCategoriasRequest.swift */; };
+		44B66E92214C2F5F00989E4F /* BuscaCategorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E91214C2F5F00989E4F /* BuscaCategorias.swift */; };
+		44B66E94214C350500989E4F /* ServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E93214C350500989E4F /* ServiceResult.swift */; };
+		44B66E97214C38FA00989E4F /* PiadasServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E96214C38FA00989E4F /* PiadasServices.swift */; };
+		44B66E99214C4CF100989E4F /* PiadaDetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E98214C4CF100989E4F /* PiadaDetalheViewController.swift */; };
+		44B66E9B214C4E6800989E4F /* PiadaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E9A214C4E6800989E4F /* PiadaRequest.swift */; };
+		44B66E9D214D6FAA00989E4F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E9C214D6FAA00989E4F /* Utils.swift */; };
+		44B66EA0214D714700989E4F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B66E9F214D714700989E4F /* BaseViewController.swift */; };
 		44B8F005214B078E0000C8FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8F004214B078E0000C8FF /* AppDelegate.swift */; };
 		44B8F007214B078E0000C8FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8F006214B078E0000C8FF /* ViewController.swift */; };
 		44B8F00A214B078E0000C8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B8F008214B078E0000C8FF /* Main.storyboard */; };
@@ -26,6 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3255FA1D2DA48A40AC8DEC48 /* Pods-ChuckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris.debug.xcconfig"; sourceTree = "<group>"; };
+		44B66E82214B272900989E4F /* ListaCategoriasPiadasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCategoriasPiadasViewController.swift; sourceTree = "<group>"; };
+		44B66E84214B28F900989E4F /* Piadas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Piadas.storyboard; sourceTree = "<group>"; };
+		44B66E86214C295500989E4F /* PiadasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiadasViewModel.swift; sourceTree = "<group>"; };
+		44B66E88214C29E000989E4F /* Piada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piada.swift; sourceTree = "<group>"; };
+		44B66E8B214C2EAA00989E4F /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		44B66E8F214C2F4800989E4F /* BuscaCategoriasRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCategoriasRequest.swift; sourceTree = "<group>"; };
+		44B66E91214C2F5F00989E4F /* BuscaCategorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCategorias.swift; sourceTree = "<group>"; };
+		44B66E93214C350500989E4F /* ServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResult.swift; sourceTree = "<group>"; };
+		44B66E96214C38FA00989E4F /* PiadasServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiadasServices.swift; sourceTree = "<group>"; };
+		44B66E98214C4CF100989E4F /* PiadaDetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiadaDetalheViewController.swift; sourceTree = "<group>"; };
+		44B66E9A214C4E6800989E4F /* PiadaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiadaRequest.swift; sourceTree = "<group>"; };
+		44B66E9C214D6FAA00989E4F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		44B66E9F214D714700989E4F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		44B8F001214B078E0000C8FF /* ChuckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B8F004214B078E0000C8FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B8F006214B078E0000C8FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +64,8 @@
 		44B8F015214B078E0000C8FF /* ChuckNorrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckNorrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B8F019214B078E0000C8FF /* ChuckNorrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisTests.swift; sourceTree = "<group>"; };
 		44B8F01B214B078E0000C8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4DA4464FD4442103442841 /* Pods_ChuckNorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD089E5BC3DF7D552270F031 /* Pods-ChuckNorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorris.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005328DB0F782D30EDAA31E7 /* Pods_ChuckNorris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +87,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0786301BD4FE050C8FFD1C13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3255FA1D2DA48A40AC8DEC48 /* Pods-ChuckNorris.debug.xcconfig */,
+				DD089E5BC3DF7D552270F031 /* Pods-ChuckNorris.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		11C1353B68FCA6E2FAC66EF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D4DA4464FD4442103442841 /* Pods_ChuckNorris.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44B66E7B214B24E400989E4F /* arch */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E9E214D712B00989E4F /* utils */,
+				44B66E8A214C2E8C00989E4F /* base */,
+				44B66E7D214B253E00989E4F /* feature */,
+			);
+			name = arch;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		44B66E7D214B253E00989E4F /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E7E214B254A00989E4F /* lista piadas */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		44B66E7E214B254A00989E4F /* lista piadas */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E80214B258A00989E4F /* models */,
+				44B66E81214B25BD00989E4F /* viewModel */,
+				44B66E7F214B257400989E4F /* views */,
+				44B66E84214B28F900989E4F /* Piadas.storyboard */,
+			);
+			path = "lista piadas";
+			sourceTree = "<group>";
+		};
+		44B66E7F214B257400989E4F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E82214B272900989E4F /* ListaCategoriasPiadasViewController.swift */,
+				44B66E98214C4CF100989E4F /* PiadaDetalheViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		44B66E80214B258A00989E4F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E96214C38FA00989E4F /* PiadasServices.swift */,
+				44B66E8D214C2F2B00989E4F /* request */,
+				44B66E8E214C2F3100989E4F /* result */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		44B66E81214B25BD00989E4F /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E86214C295500989E4F /* PiadasViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		44B66E8A214C2E8C00989E4F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E8B214C2EAA00989E4F /* BaseRequest.swift */,
+				44B66E93214C350500989E4F /* ServiceResult.swift */,
+				44B66E9F214D714700989E4F /* BaseViewController.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		44B66E8D214C2F2B00989E4F /* request */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E8F214C2F4800989E4F /* BuscaCategoriasRequest.swift */,
+				44B66E9A214C4E6800989E4F /* PiadaRequest.swift */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		44B66E8E214C2F3100989E4F /* result */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E91214C2F5F00989E4F /* BuscaCategorias.swift */,
+				44B66E88214C29E000989E4F /* Piada.swift */,
+			);
+			path = result;
+			sourceTree = "<group>";
+		};
+		44B66E9E214D712B00989E4F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				44B66E9C214D6FAA00989E4F /* Utils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		44B8EFF8214B078E0000C8FF = {
 			isa = PBXGroup;
 			children = (
 				44B8F003214B078E0000C8FF /* ChuckNorris */,
 				44B8F018214B078E0000C8FF /* ChuckNorrisTests */,
 				44B8F002214B078E0000C8FF /* Products */,
+				0786301BD4FE050C8FFD1C13 /* Pods */,
+				11C1353B68FCA6E2FAC66EF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +220,7 @@
 		44B8F003214B078E0000C8FF /* ChuckNorris */ = {
 			isa = PBXGroup;
 			children = (
+				44B66E7B214B24E400989E4F /* arch */,
 				44B8F004214B078E0000C8FF /* AppDelegate.swift */,
 				44B8F006214B078E0000C8FF /* ViewController.swift */,
 				44B8F008214B078E0000C8FF /* Main.storyboard */,
@@ -103,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B8F01E214B078E0000C8FF /* Build configuration list for PBXNativeTarget "ChuckNorris" */;
 			buildPhases = (
+				4BC61B97DB6F2774CF8626D6 /* [CP] Check Pods Manifest.lock */,
 				44B8EFFD214B078E0000C8FF /* Sources */,
 				44B8EFFE214B078E0000C8FF /* Frameworks */,
 				44B8EFFF214B078E0000C8FF /* Resources */,
+				76719F4AE1724B07352BCCD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +325,7 @@
 			files = (
 				44B8F00F214B078E0000C8FF /* LaunchScreen.storyboard in Resources */,
 				44B8F00C214B078E0000C8FF /* Assets.xcassets in Resources */,
+				44B66E85214B28F900989E4F /* Piadas.storyboard in Resources */,
 				44B8F00A214B078E0000C8FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,13 +339,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BC61B97DB6F2774CF8626D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChuckNorris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76719F4AE1724B07352BCCD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChuckNorris/Pods-ChuckNorris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44B8EFFD214B078E0000C8FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B66E92214C2F5F00989E4F /* BuscaCategorias.swift in Sources */,
+				44B66E9B214C4E6800989E4F /* PiadaRequest.swift in Sources */,
+				44B66E83214B272900989E4F /* ListaCategoriasPiadasViewController.swift in Sources */,
+				44B66E90214C2F4800989E4F /* BuscaCategoriasRequest.swift in Sources */,
 				44B8F007214B078E0000C8FF /* ViewController.swift in Sources */,
+				44B66EA0214D714700989E4F /* BaseViewController.swift in Sources */,
+				44B66E9D214D6FAA00989E4F /* Utils.swift in Sources */,
+				44B66E8C214C2EAA00989E4F /* BaseRequest.swift in Sources */,
+				44B66E97214C38FA00989E4F /* PiadasServices.swift in Sources */,
+				44B66E94214C350500989E4F /* ServiceResult.swift in Sources */,
+				44B66E87214C295500989E4F /* PiadasViewModel.swift in Sources */,
 				44B8F005214B078E0000C8FF /* AppDelegate.swift in Sources */,
+				44B66E89214C29E000989E4F /* Piada.swift in Sources */,
+				44B66E99214C4CF100989E4F /* PiadaDetalheViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,17 +558,20 @@
 		};
 		44B8F01F214B078E0000C8FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3255FA1D2DA48A40AC8DEC48 /* Pods-ChuckNorris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HVNA25BV2B;
 				INFOPLIST_FILE = ChuckNorris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuck.norris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -374,11 +579,13 @@
 		};
 		44B8F020214B078E0000C8FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD089E5BC3DF7D552270F031 /* Pods-ChuckNorris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HVNA25BV2B;
 				INFOPLIST_FILE = ChuckNorris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChuckNorrisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChuckNorris.app/ChuckNorris";

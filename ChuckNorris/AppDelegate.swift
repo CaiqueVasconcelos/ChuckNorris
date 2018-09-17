@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ChuckNorris
 //
-//  Created by Santander on 13/09/18.
+//  Created by Caique on 13/09/18.
 //  Copyright © 2018 Vasconcelos. All rights reserved.
 //
 
